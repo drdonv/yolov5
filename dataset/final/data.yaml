@@ -1,0 +1,7 @@
+path: /content/yolov5/datasets/final/rebar
+train: images/train
+val: images/val
+
+names:
+  0: typicalrebar
+  1: rebar cross-section
