@@ -1,0 +1,38 @@
+{
+  "source_images": 11,
+  "split_counts": {
+    "train": 10,
+    "val": 1,
+    "test": 0
+  },
+  "full_images_saved": 11,
+  "tile_images_saved": 538,
+  "positive_tiles_saved": 428,
+  "empty_tiles_saved": 110,
+  "missing_label_files": 0,
+  "labels_skipped_bad_lines": 0,
+  "class_ids_seen": [
+    0,
+    1
+  ],
+  "config": {
+    "src": "/Users/drdonv/programming-projects/fork-yolov5/yolov5/dataset/final/rebar",
+    "dst": "/Users/drdonv/programming-projects/fork-yolov5/yolov5/dataset/final/rebar_hybrid_tiled",
+    "seed": 42,
+    "tile_sizes": [
+      640,
+      960
+    ],
+    "tile_overlap": 0.3,
+    "tile_splits": [
+      "train"
+    ],
+    "min_box_coverage": 0.4,
+    "min_box_size": 6.0,
+    "empty_ratio": 0.2,
+    "max_empty_no_positive": 2,
+    "include_full_train": 1.0,
+    "include_full_val": 1.0,
+    "include_full_test": 1.0
+  }
+}

@@ -1,0 +1,8 @@
+path: /Users/drdonv/programming-projects/fork-yolov5/yolov5/dataset/final/rebar_hybrid_tiled
+train: images/train
+val: images/val
+test: images/test
+nc: 2
+names:
+- Blockout
+- Column
