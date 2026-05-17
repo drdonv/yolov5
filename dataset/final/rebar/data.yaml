@@ -3,5 +3,5 @@ train: images/train
 val: images/val
 
 names:
-  0: typicalrebar
-  1: rebar cross-section
+  0: Blockout
+  1: Column
